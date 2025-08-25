@@ -1,5 +1,5 @@
 # nova-browser
-macOS browser in SwiftUI: Nova Shield (ad-block), Nova Security (passwords), proxy, themes, widgets. Preview 1.0.7. My own ru project 
+macOS browser in SwiftUI: Nova Shield (ad-block), Nova Security (passwords), proxy, themes, widgets. Preview 1.0.7. My own project 
 macOS 13+, today last version of Nova Browser 1.0.7-b5
 
 🤝 Contributing
@@ -14,4 +14,4 @@ Strict Shield may break sites; toggle off if something misbehaves.
 
 English UI: 70% complete at the moment
 
-I'll post the browser here soon
+I post the browser here soon
