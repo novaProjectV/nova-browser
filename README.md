@@ -12,4 +12,6 @@ Web engine: WebKit (WKWebView) with content‑blocking rules.
 Passwords live in macOS Keychain; no export of secrets.
 Strict Shield may break sites; toggle off if something misbehaves.
 
-English UI: 50% complete at the moment
+English UI: 70% complete at the moment
+
+I'll post the browser here soon
