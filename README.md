@@ -4,7 +4,7 @@ macOS browser in **SwiftUI** — lightweight, customizable and privacy-friendly.
 Includes **Nova Shield** (ad-block & tracker protection), **Nova Security** (password manager), proxy support, themes, widgets.  
 
 > 🖥 macOS 13+ • Universal (Apple Silicon & Intel)  
-> 📦 Latest build: **1.0.7-b6**  
+> 📦 Latest build: **1.0.8-b1**  
 
 ---
 
