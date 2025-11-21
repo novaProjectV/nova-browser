@@ -1,55 +1,64 @@
+
 # 🌌 Nova Browser
 
-macOS browser in **SwiftUI** — lightweight, customizable and privacy-friendly.  
-Includes **Nova Shield** (ad-block & tracker protection), **Nova Security** (password manager), proxy support, themes, widgets.  
+A modern macOS browser built with **SwiftUI** — lightweight, customizable and privacy-focused.
+
+Includes **Nova Shield** (ad & tracker blocking), **Nova Security** (password manager), proxy support, themes and widgets.
 
 > 🖥 macOS 13+ • Universal (Apple Silicon & Intel)  
-> 📦 Latest build: **1.0.8-b1**  
+> 📦 Latest build: **1.0.8-b2**
 
 ---
 
 ## ✨ Features
+
 - 🛡 **Nova Shield** — ad & tracker blocking (normal + strict mode)  
-- 🔑 **Nova Security** — passwords stored in macOS Keychain, password generator, autofill  
-- 🎨 **Customization** — themes, accent colors, wallpapers (Aurora, Cosmos, Sakura…)  
-- 📖 **Reading mode** and per-site zoom  
-- 🧩 **Widgets** — clock, notes, weather _demo_, pomodoro timer, quote of the day  
-- 🌐 **Proxy** (HTTP/HTTPS/SOCKS, experimental)  
+- 🔑 **Nova Security** — secure password manager with macOS Keychain, generator & autofill  
+- 🎨 **Customization** — themes, accent colors, dynamic wallpapers (Aurora, Cosmos, Sakura…)  
+- 📖 **Reading mode** with per-site zoom control  
+- 🧩 **Widgets** — clock, notes, weather (demo), Pomodoro timer, daily quotes  
+- 🌐 **Proxy support** — HTTP / HTTPS / SOCKS (experimental)  
+- 🧭 **Nova Home** — customizable start page with smart widgets
 
 ---
 
 ## 🚀 Installation
-1. Download the `.dmg` from [Releases](../../releases/latest).  
-2. Drag **Nova Browser.app** into **Applications**.  
-3. If macOS shows *“unverified developer”* warning:  
-   - Right click → **Open** → confirm.  
+
+1. Download the latest `.dmg` from [Releases](../../releases/latest).  
+2. Drag **Nova Browser.app** into your **Applications** folder.  
+3. If macOS shows the *“unverified developer”* warning:
+
+Right-click on the app → **Open** → Confirm launch.
 
 ---
 
-## ⚠️ Known issues
-- Not yet signed with Developer ID (Gatekeeper warning possible).  
-- English UI ~70% complete.  
-- `nova://store` unfinished, currently only one extension available.  
-- Strict Nova Shield mode may break some websites.  
+## ⚠️ Known Issues
+
+- App is not signed with a Developer ID yet (Gatekeeper warning possible).  
+- English localization is ~70% complete.  
+- `nova://store` is still under development (only one extension available).  
+- Strict Nova Shield mode may break some websites.
 
 ---
 
 ## 🤝 Contributing
-Pull requests are welcome!  
+
+Contributions are welcome!
+
 - Please open an **Issue** before making large changes.  
-- Keep PRs small and focused.  
-- Follow [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/).  
+- Keep pull requests small and focused.  
+- Follow the official [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/).
 
 ---
 
-## 🛠 Dev notes
-- Web engine: **WebKit (WKWebView)** with content-blocking rules.  
-- Passwords live in **macOS Keychain** (no export of secrets).  
-- Strict Shield uses private WebKit APIs → may break in future macOS versions, not App Store-ready.  
+## 🛠 Developer Notes
+
+- Web engine: **WebKit (WKWebView)** with custom content-blocking rules.  
+- All passwords are stored securely in **macOS Keychain** (no export of secrets).  
+- Strict Shield uses private WebKit APIs → may break in future macOS versions and is not App Store-safe.
 
 ---
 
-## 📸 Screenshots (v1.0.7-build5)
-![Nova Home](https://github.com/user-attachments/assets/7bcbaa6f-fcc5-4418-9b60-8d718ad065b4)
+ё
 
----
+Если хочешь, могу сделать версию покороче, более техничную или наоборот — более маркетинговую 😼
